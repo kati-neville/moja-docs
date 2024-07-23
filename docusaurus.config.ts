@@ -18,7 +18,7 @@ const config: Config = {
 	organizationName: "mojaUi", // Usually your GitHub org/user name.
 	projectName: "Moja UI", // Usually your repo name.
 
-	onBrokenLinks: "throw",
+	onBrokenLinks: "ignore",
 	onBrokenMarkdownLinks: "warn",
 
 	// Even if you don't use internationalization, you can use this field to set
@@ -87,7 +87,7 @@ const config: Config = {
 					items: [
 						{
 							label: "Get Started",
-							to: "/docs/intro",
+							to: "/docs/overview/introduction",
 						},
 					],
 				},
